@@ -2,7 +2,7 @@
   session_start();
   unset($_SESSION['pseudo']);
   unset($_SESSION['reward1']);
-  unset($_SESSION['reward3']);
+  unset($_SESSION['reward2']);
 ?>
 
 <html>

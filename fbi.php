@@ -2,9 +2,9 @@
   <?php include('includes/head.php') ?>
   <body class="fbi">
     <section class="center">
-      <article class="block">
-        <a class="button" href="wayd.php">LE DEEP WEB !</a>
-        <a class="button" href="last.php">WALLAH j'arrête promis !</a>
+      <article class="btn-ae">
+        <a class="button btn-blue big-btn" href="wayd.php">LE DEEP<br>WEB !</a>&nbsp;&nbsp;&nbsp;
+        <a class="button btn-blue big-btn" href="last.php">WALLAH<br>j'arrête promis !</a>
       </article>
     </section>
   </body>
