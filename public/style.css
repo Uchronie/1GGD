@@ -24,6 +24,10 @@ body {
   background-image: url("ea.jpg");
 }
 
+.whisky {
+  background-image: url("whysky.jpg");
+}
+
 .center {
   display: flex;
   align-items: center;
