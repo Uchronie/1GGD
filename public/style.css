@@ -9,7 +9,10 @@ body {
 }
 
 .ae {
-  background-image: url("ae.jpg");
+  background-image: url("ae.jpeg");
+  background-color: #cccccc;
+  width: 50%;
+  height: 50%;
 }
 
 .cassia {
