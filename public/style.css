@@ -1,5 +1,5 @@
 body {
-  background-color: #cccccc;
+  background-color: #212121;
   width: 100%;
   height: 100%;
   background-position: center;
@@ -9,6 +9,14 @@ body {
 
 .intro {
   background-image: url("intro.jpeg");
+}
+
+.patate {
+  background-image: url("reward2.jpg");
+}
+
+.fond {
+  background-image: url("test.jpg");
 }
 
 .ae {
@@ -28,7 +36,37 @@ body {
 }
 
 .whisky {
-  background-image: url("whysky.jpg");
+  background-image: url("whisky.jpg");
+}
+
+.truend {
+  background-image: url("truend.jpg");
+}
+
+.dance {
+  background-image: url("dance.gif");
+  background-repeat: repeat !important;
+  background-size: auto !important;
+}
+
+.fbi {
+  background-image: url("fbi.png");
+  background-size: auto !important;
+}
+
+.deep {
+  background-image: url("deep.jpg");
+  background-size: auto !important;
+  background-color: #fafafa;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: monospace;
+}
+
+.reward1 {
+  background-image: url("reward1.jpg");
 }
 
 .center {
@@ -39,12 +77,18 @@ body {
   height: 100%;
 }
 
+.pad-20 { padding: 20px;}
+
 .block {
   width: 700px;
   min-height: 180px;
   background-color: #cccccc40;
   margin-bottom: 250px;
   text-align: center;
+}
+
+.dark-block {
+  background-color: #10101050;
 }
 
 .block p {
@@ -56,10 +100,18 @@ body {
   margin-bottom: 5px;
 }
 
+.bottom-block {
+  margin-top: 250px;
+}
+
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+iframe {
+  border: 0px;
 }
 
 .input {
@@ -94,18 +146,30 @@ a.button {
   padding-top: 8px;
 }
 
-.button:hover {
-  background-color: #a36408;
+.button:hover { background-color: #a36408; }
+.btn-grey { background-color: #3A4E68; }
+.btn-grey:hover { background-color: #283648; }
+.btn-blue { background-color: #1e3b65; }
+.btn-blue:hover { background-color: #132847; }
+.btn-whisky { background-color: #db5202; }
+.btn-whisky:hover { background-color: #b32901; }
+
+.btn-mono {
+  font-family: monospace !important;
+  padding-top: 13px !important;
 }
 
-.btn-grey {
-  background-color: #3A4E68;
+.btn-big {
+  padding-top: 16px !important;
+  padding-bottom: 9px !important;
+
+  height: 25px !important;
 }
 
-.btn-grey:hover {
-  background-color: #283648;
+.big-btn {
+  padding-top: 5px !important;
+  height: 45px !important;
 }
-
 
 .btn-ae {
   position: relative;
