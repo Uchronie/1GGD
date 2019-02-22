@@ -9,7 +9,7 @@
     <section class="center">
       <article class="block">
         <p>Très bien, vous serez donc le sujet 42. Commençons.</p>
-        <a class="button">Suite</a>
+        <a class="button" href="ae.php">Suite</a>
       </article>
     </section>
   </body>
