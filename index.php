@@ -1,3 +1,10 @@
+<?php
+  session_start();
+  unset($_SESSION['pseudo']);
+  unset($_SESSION['reward1']);
+  unset($_SESSION['reward3']);
+?>
+
 <html>
   <?php include('includes/head.php') ?>
   <body class="intro">

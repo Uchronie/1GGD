@@ -35,6 +35,10 @@ body {
   background-image: url("whisky.jpg");
 }
 
+.reward1 {
+  background-image: url("reward1.jpg");
+}
+
 .center {
   display: flex;
   align-items: center;
@@ -64,6 +68,10 @@ body {
   font-size: 24px;
   padding-bottom: 5px;
   margin-bottom: 5px;
+}
+
+.bottom-block {
+  margin-top: 250px;
 }
 
 form {
@@ -113,7 +121,13 @@ a.button {
 .btn-grey:hover { background-color: #283648; }
 .btn-blue { background-color: #1e3b65; }
 .btn-blue:hover { background-color: #132847; }
+.btn-whisky { background-color: #db5202; }
+.btn-whisky:hover { background-color: #b32901; }
 
+.btn-mono {
+  font-family: monospace !important;
+  padding-top: 13px !important;
+}
 
 .btn-ae {
   position: relative;
