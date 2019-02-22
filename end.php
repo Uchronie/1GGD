@@ -20,9 +20,7 @@ if (stristr($_POST["rep"], "patate") && $_SESSION['reward1'] == 1 & $_SESSION['r
     <?php include('includes/head.php') ?>
     <body class="fond">
       <section class="center">
-        <article class="block">
-          <a class="button" href="falseend.php">Suite</a>
-        </article>
+        <a class="button btn-blue btn-ae" href="falseend.php">Suite</a>
       </section>
     </body>
   </html>
@@ -40,5 +38,5 @@ if (stristr($_POST["rep"], "patate") && $_SESSION['reward1'] == 1 & $_SESSION['r
     </section>
   </body>
   </html>
-  
+
 <?php endif; ?>
