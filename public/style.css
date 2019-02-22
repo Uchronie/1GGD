@@ -1,5 +1,5 @@
 body {
-  background-color: #cccccc;
+  background-color: #212121;
   width: 100%;
   height: 100%;
   background-position: center;
@@ -9,6 +9,10 @@ body {
 
 .intro {
   background-image: url("intro.jpeg");
+}
+
+.patate {
+  background-image: url("reward2.jpg");
 }
 
 .fond {
@@ -37,10 +41,13 @@ body {
 
 .fbi {
   background-image: url("fbi.png");
+  background-size: auto !important;
 }
 
 .deep {
   background-image: url("deep.jpg");
+  background-size: auto !important;
+  background-color: #fafafa;
 }
 
 .reward1 {
