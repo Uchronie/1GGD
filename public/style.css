@@ -137,6 +137,18 @@ a.button {
   padding-top: 13px !important;
 }
 
+.btn-big {
+  padding-top: 16px !important;
+  padding-bottom: 9px !important;
+
+  height: 25px !important;
+}
+
+.big-btn {
+  padding-top: 5px !important;
+  height: 45px !important;
+}
+
 .btn-ae {
   position: relative;
   bottom: -200px;
