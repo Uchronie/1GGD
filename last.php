@@ -3,7 +3,7 @@
   <body class="fond">
     <section class="center">
       <article class="block">
-        <p>Quelle est la forme de language la plus utilisée en programmation ?</p>
+        <p>Vous pouvez compter jusqu'à combien ?</p>
         <form method="POST" action="end.php">
           <input name="rep" class="input" type="text"/>
           <button class="button" type="submit">Envoyer</button>
