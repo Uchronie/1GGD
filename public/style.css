@@ -28,6 +28,10 @@ body {
   background-image: url("whisky.jpg");
 }
 
+.fbi {
+  background-image: url("fbi.png");
+}
+
 .center {
   display: flex;
   align-items: center;
