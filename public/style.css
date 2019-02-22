@@ -1,22 +1,19 @@
-.intro {
-  background-image: url("intro.jpeg");
+body {
   background-color: #cccccc;
   width: 100%;
   height: 100%;
+}
+
+.intro {
+  background-image: url("intro.jpeg");
 }
 
 .cassia {
   background-image: url("cassia.jpg");
-  background-color: #cccccc;
-  width: 100%;
-  height: 100%;
 }
 
 .auriel {
   background-image: url("auriel.jpg");
-  background-color: #cccccc;
-  width: 100%;
-  height: 100%;
 }
 
 .center {
@@ -28,9 +25,7 @@
 }
 
 .block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
   width: 700px;
   height: 300px;
   background-color: #cccccc40;
@@ -45,6 +40,12 @@
   font-size: 24px;
   padding-bottom: 5px;
   margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .input {
