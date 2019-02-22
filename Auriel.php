@@ -4,7 +4,7 @@
     <section class="center">
       <article class="block">
         <p>Bien joué ! <br> Auriel est fier de vous !</p>
-        <button class="button" type="submit">Suite</button>
+        <a class="button" href="youtube.php">Suite</a>
       </article>
     </section>
   </body>
