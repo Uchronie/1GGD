@@ -4,7 +4,7 @@
     <section class="center">
       <article class="block">
         <p>LOL ou DOTA ?</p>
-        <form method="POST" action="enigme2.php">
+        <form method="POST" action="loldota.php">
           <input name="youtube" class="input" type="text"/>
           <button class="button" type="submit">Envoyer</button>
         </form>
