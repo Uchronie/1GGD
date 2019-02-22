@@ -9,8 +9,8 @@
       <article class="block">
         <iframe width="300" height="400" src="https://www.youtube.com/embed/OAQ7l33UF3E"></iframe>
           <p> Continuez-vous de coder après ça ? </p>
-        <a class="button" href="hots.php">Oui</a>
-        <a class="button" href="ae.php">Non</a>
+        <a class="button" href="hots.php">Non</a>
+        <a class="button" href="ae.php">Oui</a>
       </article>
     </section>
   </body>
