@@ -35,6 +35,16 @@ body {
   background-image: url("whisky.jpg");
 }
 
+.truend {
+  background-image: url("truend.jpg");
+}
+
+.dance {
+  background-image: url("dance.gif");
+  background-repeat: repeat !important;
+  background-size: auto !important;
+}
+
 .fbi {
   background-image: url("fbi.png");
 }

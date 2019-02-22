@@ -15,7 +15,7 @@
     <?php include('includes/head.php') ?>
     <body class="reward1">
       <section class="center">
-        <a class="button btn-ae btn-grey" href="ea.php">Suite</a>
+        <a class="button btn-ae btn-grey" href="whisky.php">Suite</a>
       </section>
     </body>
   </html>
