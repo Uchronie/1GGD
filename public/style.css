@@ -23,6 +23,14 @@ body {
   background-image: url("auriel.jpg");
 }
 
+.ea {
+  background-image: url("ea.jpg");
+}
+
+.whisky {
+  background-image: url("whysky.jpg");
+}
+
 .center {
   display: flex;
   align-items: center;
