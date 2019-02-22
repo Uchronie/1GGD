@@ -8,3 +8,6 @@
     </section>
   </body>
 </html>
+<?php session_start();
+$_SESSION['reward2']=1;
+?>
