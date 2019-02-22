@@ -9,7 +9,7 @@
       <article class="block">
           <p> Hello There ou Hello World ?</p>
         <a class="button" href="ctrln.php">Hello There</a>
-        <a class="button" href="patate.php">Oui</a>
+        <a class="button" href="patate.php">Hello World</a>
       </article>
     </section>
   </body>
