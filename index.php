@@ -7,7 +7,7 @@
         Quel est votre nom ?</p>
         <form method="POST" action="salutation.php">
           <input name="pseudo" class="input" type="text"/>
-          <button class="button" type="submit">Envoyer</button>
+          <button class="button" type="submit" required>Envoyer</button>
         </form>
       </article>
     </section>

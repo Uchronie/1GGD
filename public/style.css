@@ -2,6 +2,9 @@ body {
   background-color: #cccccc;
   width: 100%;
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .intro {
@@ -41,9 +44,8 @@ body {
 }
 
 .block {
-
   width: 700px;
-  height: 300px;
+  min-height: 180px;
   background-color: #cccccc40;
   margin-bottom: 250px;
   text-align: center;
@@ -86,6 +88,30 @@ form {
   transition: 0.3s;
 }
 
+a.button {
+  font-size: 16px;
+  font-family: "Verdana", sans-serif;
+  height: 30px;
+  width: 180px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 8px;
+}
+
 .button:hover {
   background-color: #a36408;
+}
+
+.btn-grey {
+  background-color: #3A4E68;
+}
+
+.btn-grey:hover {
+  background-color: #283648;
+}
+
+
+.btn-ae {
+  position: relative;
+  bottom: -200px;
 }
