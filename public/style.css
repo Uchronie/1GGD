@@ -39,6 +39,10 @@ body {
   background-image: url("fbi.png");
 }
 
+.deep {
+  background-image: url("deep.jpg");
+}
+
 .center {
   display: flex;
   align-items: center;
