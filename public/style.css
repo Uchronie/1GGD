@@ -20,6 +20,10 @@ body {
   background-image: url("auriel.jpg");
 }
 
+.ea {
+  background-image: url("ea.jpg");
+}
+
 .center {
   display: flex;
   align-items: center;
