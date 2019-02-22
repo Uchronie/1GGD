@@ -3,9 +3,9 @@
   <body class="fond">
     <section class="center">
       <article class="block">
-        <p> CTRL + N ou CTRL + MAJ + N ? </p>
-        <a class="button" href="mac.php">CTRL + N </a>
-        <a class="button" href="nsa.php">CTRL + MAJ + N </a>
+        <p> MAC ou PC ? </p>
+        <a class="button" href="ea.php"> MAC </a>
+        <a class="button" href="last.php"> PC </a>
       </article>
     </section>
   </body>
