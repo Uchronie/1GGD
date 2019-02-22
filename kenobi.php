@@ -1,15 +1,15 @@
 <?php
-  if (stristr($_POST["reponse"], "javascript")):
+  if (stristr($_POST["reponse"], "javascript") || stristr($_POST["reponse"], "js")):
 ?>
 
 <html>
   <?php include('includes/head.php') ?>
   <body class="fond">
     <section class="center">
-      <article class="block">
+      <article class="block dark-block">
           <p> Hello There ou Hello World ?</p>
-        <a class="button" href="ctrln.php">Hello There</a>
-        <a class="button" href="patate.php">Hello World</a>
+        <a class="button btn-blue" href="ctrln.php">Hello There</a>
+        <a class="button btn-blue" href="patate.php">Hello World</a>
       </article>
     </section>
   </body>
@@ -22,8 +22,7 @@
     <section class="center">
       <article class="block">
         <p>Mauvaise réponse sujet 42, essayez encore.</p>
-        <input class="input" type="text"/>
-        <button class="button" type="submit">Envoyer</button>
+        <a class="button" href="java.php">Retour</a>
       </article>
     </section>
   </body>
