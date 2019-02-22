@@ -1,10 +1,9 @@
 <html>
   <?php include('includes/head.php') ?>
-  <body class="auriel">
+  <body class="ae">
     <section class="center">
       <article class="block">
-        <p>Bien joué ! <br> Auriel est fier de vous !</p>
-        <a class="button" href="youtube.php">Suite</a>
+        <a class="button" href="cassia.php">Suite</a>
       </article>
     </section>
   </body>
