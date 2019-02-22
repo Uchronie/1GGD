@@ -3,11 +3,10 @@ session_start();
 if (stristr($_POST["rep"], "patate") && $_SESSION['reward1'] == 1 & $_SESSION['reward2'] == 1):?>
   <html>
     <?php include('includes/head.php') ?>
-    <body class="fond">
+    <body class="truend">
       <section class="center">
         <article class="block dark-block">
-            <p> Vous utilisez le portal gun pour échapper à Glados et à ses tests !</p>
-            <?php print_r($_SESSION)?>
+          <p> Vous utilisez le portal gun pour échapper à Glados et à ses tests !</p>
           <a class="button btn-blue" href="truend.php">Suite</a>
         </article>
       </section>

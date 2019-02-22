@@ -4,7 +4,7 @@
     <section class="center">
       <article class="block">
       	<p> Merci sujet 42, vous pouvez retournez à votre cellule </p>
-        <a class="button btn-ae btn-grey" href="falseending">Suite</a>
+        <a class="button" href="falseending.php">Suite</a>
       </article>
     </section>
   </body>
