@@ -1,8 +1,34 @@
-.intro {
-  background-image: url("intro.jpeg");
+body {
   background-color: #cccccc;
   width: 100%;
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  background-image: url("intro.jpeg");
+}
+
+.ae {
+  background-image: url("ae.jpg");
+}
+
+.cassia {
+  background-image: url("cassia.jpg");
+}
+
+.auriel {
+  background-image: url("auriel.jpg");
+}
+
+.ea {
+  background-image: url("ea.jpg");
+}
+
+.whisky {
+  background-image: url("whysky.jpg");
 }
 
 .center {
@@ -14,11 +40,8 @@
 }
 
 .block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 700px;
-  height: 300px;
+  min-height: 180px;
   background-color: #cccccc40;
   margin-bottom: 250px;
   text-align: center;
@@ -31,6 +54,12 @@
   font-size: 24px;
   padding-bottom: 5px;
   margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .input {
@@ -55,6 +84,30 @@
   transition: 0.3s;
 }
 
+a.button {
+  font-size: 16px;
+  font-family: "Verdana", sans-serif;
+  height: 30px;
+  width: 180px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 8px;
+}
+
 .button:hover {
   background-color: #a36408;
+}
+
+.btn-grey {
+  background-color: #3A4E68;
+}
+
+.btn-grey:hover {
+  background-color: #283648;
+}
+
+
+.btn-ae {
+  position: relative;
+  bottom: -200px;
 }
